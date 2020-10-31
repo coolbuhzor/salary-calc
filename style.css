@@ -78,6 +78,13 @@ form button {
     font-size:  1.5rem;
     text-align: center;
     border-radius: 8px;
+    border: none;
+    box-shadow: 4px 4px 5px #000;
+    transition: all .5s ease-in-out;
+}
+
+form button:hover {
+transform: scale(1.1);
 }
 
 .display {
@@ -120,7 +127,7 @@ main > p {
 
 form button {
     margin-top: 1rem;
-    padding: 1rem 1rem;
+    padding: .5rem 1rem;
     background: teal;
     font-size:  1.5rem;
     text-align: center;
